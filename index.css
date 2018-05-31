@@ -121,14 +121,14 @@ legend {
 
 .btn {
   height: 40px;
-  width: 80px;
+  width: 85px;
   text-align: center;
   text-decoration: none;
   border: none;
   border-radius: 2px;
   color: #fff;
   font-family: "Sunflower", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -139,12 +139,16 @@ legend {
 
 .btn-start {
   background-color: #00e673;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
 }
 
 .btn-restart {
   margin: 0 auto;
   background-color: #ff3333;
   width: 120px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
 }
 
 .btn-submit {

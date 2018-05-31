@@ -49,8 +49,8 @@ function updateQuestionIndex() {
 };
 
 function startQuiz() {
-  //removes the start quiz elements on the page and unhides the quiz form once you click the "Start" button  
-  $('.btn-start').on('click', function (event) {
+  //removes the start quiz elements on the page and unhides the quiz form once you click the "Start" button
+  $('.btn-start').click(function (event) {
     $('.startQuiz').remove();
     $('.quizForm').css('display', 'flex');
   });
@@ -58,7 +58,7 @@ function startQuiz() {
 
 function restartQuizListener() {
   //when the restart button is clicked, immediately reload page
-  $('.quizForm').on('click', '.btn-restart', function (event) {
+  $('.quizForm').click('.btn-restart', function (event) {
     //reload method in javascript
     location.reload();
   });
