@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Quiz</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="datastore.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href ="index.html">
+          <img src="code-icon.svg" class="logo-svg"  alt="code icon"/>
+        </a>
+      </div>
+      <div class="score-container">
+        <ul class="score-keys">
+          <li class="questionKey">Question: <span class="questionIndex">0</span>/10</li>
+          <li class="scoreKey">Score: <span class="scoreCount">0</span></li>
+        </ul>
+      </div>
+    </header>
+    <main role="main">
+      <div class="startQuiz">
+        <h1>Are you ready to test your knowledge as a developer?</h1>
+        <button type="button" class="btn btn-start" role="button">Start</button>
+      </div>
+      <div class="quizForm"></div>
+    </main>
+  </body>
+</html>
