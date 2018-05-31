@@ -4,7 +4,7 @@ const STORE = [
     question: 'What does semantic HTML markup do?',
     answers: [
       'introduces meaning to the web page rather than just presentation',
-      'changes the structure of the webpage', 
+      'changes the structure of the webpage',
       'has specific properties beyond that of regular HTML tags',
       'styles the page without using css'
       ],
@@ -13,9 +13,9 @@ const STORE = [
   {
     question: 'What is ARIA?',
     answers: [
-      'a type of screen reader', 
-      'a specific set of HTML tags with unique properties', 
-      'a set of attributes you can add to HTML elements', 
+      'a type of screen reader',
+      'a specific set of HTML tags with unique properties',
+      'a set of attributes you can add to HTML elements',
       'an HTML standard for accessibility'
       ],
     correctAnswer: 'an HTML standard for accessibility',
@@ -86,7 +86,7 @@ const STORE = [
       'Document Object Manipulation',
       'Data Object Manipulation',
       'Document Object Model',
-      'Data Object Model' 
+      'Data Object Model'
       ],
     correctAnswer: 'Document Object Model',
   },
@@ -101,5 +101,3 @@ const STORE = [
     correctAnswer: 'a function that waits for an event to occur before triggering an action',
   }
 ];
-
-export {STORE};
